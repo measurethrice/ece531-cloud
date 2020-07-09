@@ -3,7 +3,7 @@ var express = require('express');
 var router = express.Router(); 
 
 // Models
-var Product = requrie('../models/product'); 
+var Product = require('../models/products'); 
 
 // Routes
 Product.methods(['get', 'put', 'post', 'delete']); 
